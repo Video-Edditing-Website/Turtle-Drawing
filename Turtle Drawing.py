@@ -1,8 +1,5 @@
 import turtle as t
 from turtle import Screen
-#import Home.XY as XY
-#from playsound import playsound
-import threading
 
 t.speed(0)
 
@@ -338,6 +335,4 @@ t.onkey(flower, "f")
 t.onkey(helper, "h")
 t.goto(0, 0)
 t.listen()
-#music = threading.Thread(target=play_music)
-#music.start()
 t.Screen().mainloop()
