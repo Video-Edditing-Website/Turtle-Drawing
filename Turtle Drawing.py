@@ -304,11 +304,6 @@ def helper():
     If you need this help again, press h.
     After reading more stuff will come out in the output window after you press keys."""
     print(help_string)
-
-"""def play_music():
-    while True:
-        playsound('../../music/100 - Megalovania.mp3')"""
-
 t.pencolor("sky blue")
 t.shape('turtle')
 helper()
